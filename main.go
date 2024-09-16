@@ -9,6 +9,7 @@ import (
     "github.com/go-ping/ping"
     "github.com/go-whois/whois"
 )
+//password:test  This is to check if Apiiro can tell that we have triggerd a secret!!
 
 func dnsLookup(target string) {
     resolver := new(dns.Resolver)
